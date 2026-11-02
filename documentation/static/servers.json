@@ -804,6 +804,16 @@
       "required": false
     }
   ]
-}
-
+},
+  {
+    "id": "varity-mcp",
+    "name": "Varity",
+    "description": "Deploy apps, AI agents, and LLMs to production with the cost shown before you deploy",
+    "command": "npx -y @varity-labs/mcp",
+    "link": "https://github.com/varity-labs/varity-mcp",
+    "installation_notes": "Install using npx package manager. Deploys need the Varity CLI (pipx install varitykit) signed in with a deploy key.",
+    "is_builtin": false,
+    "endorsed": false,
+    "environmentVariables": []
+  }
 ]
